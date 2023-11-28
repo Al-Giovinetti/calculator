@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex{
+    display: flex;
+}
+
+main.calculator{
+    padding: 1.5rem;
+    color: white;
+    background-color: red;
+}
+
+section.result{
+    background-color: black;   
+}
+
+section.buttons-zone{
+    flex-wrap: wrap;
+}
+
+.button-box{
+    width: calc(100% / 4);
+}
+
+.bg-grey{
+    background-color: gray;
+}
+
+.bg-light-grey{
+    background-color: antiquewhite;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
